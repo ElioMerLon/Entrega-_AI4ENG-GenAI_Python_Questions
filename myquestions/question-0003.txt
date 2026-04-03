@@ -1,0 +1,10 @@
+Recibes un DataFrame de pandas con varias columnas numéricas y una columna objetivo binaria.
+
+Debes escribir una función llamada calcular_importancia_permutacion(df, target_col) que:
+
+1. Separe las características X de la variable objetivo y.
+2. Entrene un modelo RandomForestClassifier con random_state=42.
+3. Calcule la importancia de las variables utilizando permutation_importance de sklearn.
+4. Devuelva un diccionario donde:
+   - las claves sean los nombres de las columnas
+   - los valores sean las importancias promedio

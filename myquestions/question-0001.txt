@@ -1,0 +1,12 @@
+Recibes un DataFrame de pandas con tres columnas: "cliente", "monto" y "cantidad".
+
+Debes escribir una función llamada resumen_clientes(df) que:
+
+1. Agrupe el DataFrame por la columna "cliente".
+2. Calcule para cada cliente:
+   - total_gastado: suma de la columna "monto"
+   - total_unidades: suma de la columna "cantidad"
+   - ticket_promedio: media de la columna "monto"
+3. Devuelva un DataFrame con estas columnas.
+4. El resultado debe estar ordenado de mayor a menor según "total_gastado".
+5. La columna "cliente" debe mantenerse como columna normal, no como índice.

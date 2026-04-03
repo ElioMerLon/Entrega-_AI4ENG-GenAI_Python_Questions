@@ -1,0 +1,11 @@
+Recibes un DataFrame de pandas con dos columnas: "fecha" (en formato string) y "ventas".
+
+Debes escribir una función llamada agrupar_ventas_mensuales(df) que:
+
+1. Convierta la columna "fecha" a tipo datetime.
+2. Agrupe los datos por mes.
+3. Calcule la suma de "ventas" para cada mes.
+4. Devuelva un DataFrame con dos columnas:
+   - "mes" en formato YYYY-MM
+   - "ventas_totales"
+5. El resultado debe estar ordenado cronológicamente por mes.

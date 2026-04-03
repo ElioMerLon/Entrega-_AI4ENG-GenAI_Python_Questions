@@ -1,0 +1,12 @@
+Recibes un DataFrame de pandas con variables numéricas y una columna objetivo binaria.
+
+Debes escribir una función llamada evaluar_umbral_optimo(df, target_col) que:
+
+1. Separe las características X de la variable objetivo y.
+2. Entrene un modelo LogisticRegression con max_iter=1000.
+3. Obtenga las probabilidades predichas para la clase positiva.
+4. Evalúe distintos umbrales entre 0.0 y 1.0 (con paso de 0.05).
+5. Para cada umbral, calcule el F1-score.
+6. Devuelva una tupla con:
+   - el mejor umbral
+   - el mejor F1-score
